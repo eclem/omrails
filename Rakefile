@@ -3,6 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Rake::Task[:default].clear if Rake::Task.task_defined?(:default)
-
 Omrails::Application.load_tasks
